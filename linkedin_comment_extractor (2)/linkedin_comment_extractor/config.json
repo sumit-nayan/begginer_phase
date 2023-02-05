@@ -1,0 +1,15 @@
+{
+    "username_name": "session_key",
+    "password_name": "session_password",
+    "sign_in_button_xpath": "//*[@type='submit']",
+    "load_comments_class": "comments-comments-list__load-more-comments-button",
+    "comment_class": "comments-comment-item__main-content",
+    "headline_class": "comments-post-meta__headline",
+    "name_class": "comments-post-meta__name",
+    "avatar_class": "comments-post-meta__actor-link",
+    "filename": "comments-data",
+    "dirname": "profile-pics",
+    "post_url": [
+        "https://www.linkedin.com/feed/update/urn:li:activity:6995240966794153984?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6995240966794153984%29"
+           ]
+}
