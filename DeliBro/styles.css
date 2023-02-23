@@ -1,0 +1,171 @@
+/* CSS for Delivery Startup landing page */
+
+/* Global styles */
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    }
+    
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav ul li {
+    margin-right: 1rem;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    }
+    
+    nav ul li a:hover {
+    text-decoration: underline;
+    }
+    
+    main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    }
+    
+    button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #555;
+    }
+    
+    /* Hero section */
+    
+    .hero {
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+    
+    .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    }
+    
+    .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+    
+    /* Services section */
+    
+    .services {
+    margin-bottom: 2rem;
+    }
+    
+    .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .services ul {
+    list-style: none;
+    }
+    
+    .services li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    /* Pricing section */
+    
+    .pricing {
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+    
+    .pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .pricing p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+    
+    /* About Us section */
+    
+    .about-us {
+    margin-bottom: 2rem;
+    }
+    
+    .about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+    
+    /* Contact Us section */
+    
+    .contact-us {
+    text-align: center;
+    margin-bottom: 2rem;
+    }
+    
+    .contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .contact-us label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .contact-us input,
+    .contact-us textarea {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 2px solid #333;
+    }
+    
+    .contact-us button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+    
+    .contact-us button[type="submit"]:hover {
+    background-color: #555;
+    }
