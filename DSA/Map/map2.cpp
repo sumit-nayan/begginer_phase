@@ -7,12 +7,12 @@ int main(){
 
     //The main difference between an ordered map and an unordered map in C++ is the way they store and retrieve their key-value pairs.
     
-    //Ordered map (If the order of the keys is important and search time is a critical factor, an ordered map is a better choice.)
+    //Ordered map (log n time) (If the order of the keys is important and search time is a critical factor, an ordered map is a better choice.)
     //An ordered map, also known as a map, is an associative container that stores key-value pairs in a sorted order based on the keys. 
     //The keys are unique and used to access the corresponding values. It is implemented as a balanced binary search tree (BST), where the keys are sorted in ascending order. 
     //The advantages of a map include faster search time and ordered iteration of the keys.
 
-    //Unordered map ( If the order of the keys is not important and faster insertion and deletion time is a critical factor, an unordered map is a better choice.)
+    //Unordered map (constant time)( If the order of the keys is not important and faster insertion and deletion time is a critical factor, an unordered map is a better choice.)
     //an unordered map, also known as a hash map, is an associative container that stores key-value pairs in an arbitrary order. 
     //It is implemented as a hash table, where the keys are hashed to retrieve the corresponding values. The keys are unique and used to access the corresponding values. 
     //The advantages of an unordered map include faster insertion and deletion time, and constant-time average search time.
