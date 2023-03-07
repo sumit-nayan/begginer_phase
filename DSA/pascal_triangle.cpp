@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 vector<vector<int>> generate_pascle_triangle(int n){
-    vector<vector<int>> v(n);
+    vector<vector<int>> v(n); // This means outer vector(or row) has n element but inner vector (or column) size is not defined
 
     for (int i = 0; i < n; i++)
     {

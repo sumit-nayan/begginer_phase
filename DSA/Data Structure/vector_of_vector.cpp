@@ -13,6 +13,8 @@ void print(vector<int> v){
 
 int main(){
     vector<vector<int>> v; // This is 2D matrix in which both rows and column size are dynamic.
+    vector<vector<int>>v4(n); // Here rows are fixed of size n but column are dynamic.
+    vector<vector<int>> v(n, vector<int>(m)); // This has n rows and m column
     int N; //Size of rows you want to keep 
     cout<<"Size of rows:";
     cin>>N;
