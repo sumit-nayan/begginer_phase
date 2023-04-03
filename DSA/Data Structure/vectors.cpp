@@ -70,6 +70,11 @@ int main(){
     // Array mein aise nhi kr skte the || pointer kr ke krte the wo bhi ek hi array hota tha,ki ek mein change hota tha doosra bhi change ho jata tha yahan 2 different vector ban gya
     //It mean v3 new vector ban gya 
 
+
+    //Delete one elment
+    v.erase(v.begin() + index);
+}
+
     //Pass by reference
     vector<int> &v4=v;
     v4.push_back(4);

@@ -7,6 +7,7 @@ void print(map<int,string> m){
     }
 }
 int main(){
+    //Defult meaning of map is ordered map
     cout<<"Initalition of map"<<endl;
     map<int,string> m; //Initalition of map// int is key and string is value//key unique hoga// and key and value kuch bhi ho ksta hai like vector,set and other container also
     m[1] = "abc";  //O(log(n)); also take O(log(n)) time if you write m[6]// Time complexity of accessing of map is also log(n)
@@ -16,7 +17,7 @@ int main(){
     m[5] = "dfs"; //Ye input new key create nhi krega qki m[5] create ho chuki hai and ye bas m[5] ko update kr dega
     m.insert({4,"sdqf"});    //This is how we can also add element in map // There is pair in map so we use {} to initalize pair    
     print(m);
-    //You will notice that sorted way key mein print hua hoga; this is a property of map;
+    //You will notice that sorted way key mein print hua hoga; this is a property of ordered map;Bina kuch likhe hone pe ordered map hi hota hai
     cout<<endl<<endl;
 
 
